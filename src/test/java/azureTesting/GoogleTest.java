@@ -77,7 +77,7 @@ public class GoogleTest {
 	@Test
 	public void googleTypeTest() throws InterruptedException {
 		System.out.println(driver.getTitle());
-		driver.findElement(By.name("q")).sendKeys("Hello Chrome");
+		driver.findElement(By.name("q")).sendKeys("Hello Chrome1");
 		Thread.sleep(2000);
 	}
 	
