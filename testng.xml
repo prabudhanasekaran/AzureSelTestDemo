@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test Suite" verbose="2" thread-count="3" parallel="tests">
+
+
+
+<test name="Azure Test for Chrome">
+<parameter name="browser" value="chrome"></parameter>
+    <classes>
+        <class name="azureTesting.GoogleTest" ></class> 
+    </classes>
+</test>
+
+<test name="Azure Test for Firefox">
+<parameter name="browser" value="firefox"></parameter>
+    <classes>
+        <class name="azureTesting.GoogleTest" ></class> 
+    </classes>
+</test>
+
+
+</suite>
